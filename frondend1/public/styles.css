@@ -1,0 +1,267 @@
+/* headder part */
+body {
+  overflow-x: hidden;
+}
+.navlogin {
+  margin-left: auto;
+}
+header {
+  /* background-color: rgb(184 202 17); */
+  padding-right: 12px;
+}
+.headpart {
+  background-color: rgb(184 202 17);
+}
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 4;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.9);
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  text-align: center;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: black;
+  text-decoration-line: none;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+.headtext {
+  margin-left: 3%px;
+}
+
+.navbarc {
+  padding: 20px;
+}
+.navbarc ul {
+  padding-right: 70px;
+}
+.menulist {
+  position: absolute;
+  top: 35px;
+  right: 2px;
+}
+.menulist button {
+  background-color: transparent;
+  border: none;
+}
+.headercontent {
+  margin-left: 15%;
+  padding-top: 80px;
+  text-align: left;
+}
+.headerimage {
+  width: 90%;
+}
+.nav-item {
+  margin: 10px;
+}
+.headercontent p {
+  margin-top: 20px;
+  margin-right: 40px;
+}
+.brand {
+  font-size: 3rem;
+}
+.top {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 700px;
+  left: 0;
+  top: 0;
+  background-color: #c4d70f;
+  clip-path: polygon(0 0, 100% 0, 100% 73%, 0% 100%);
+}
+.carouselprev {
+  top: 104%;
+  position: relative;
+  /* right: 53%; */
+  border-radius: 100%;
+  border: #ffffff;
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  z-index: 3;
+}
+.carouselNext {
+  top: 104%;
+  position: relative;
+  /* right: 49%; */
+  border-radius: 100%;
+  border: #ffffff;
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  z-index: 3;
+}
+.carousel {
+  position: absolute;
+  text-align: center;
+}
+#carouselExampleIndicators {
+  top: 110px;
+}
+.readbtn {
+  border-radius: 20px;
+  background-color: transparent;
+  color: white;
+  border-color: white;
+}
+.indicator {
+  padding-right: 90%;
+  text-align-last: right;
+}
+.indicator button {
+  color: #ffffff;
+  height: 30px;
+  border-radius: 100%;
+
+  background-color: transparent !important;
+}
+
+/* card section */
+.cardSection {
+  padding-top: 300px;
+  text-align: center;
+  background-color: #f5fafc;
+  padding-right: 20px;
+}
+.aboutCard {
+  background-color: white;
+  margin-left: 30px;
+  padding-top: 40px;
+  margin-bottom: 100px;
+}
+.cards {
+  padding: 4% 10%;
+}
+.imgcard {
+  padding-bottom: 30px;
+}
+.cardbtn {
+  padding-top: 90px;
+  background-color: #f5fafc;
+}
+.cardtittle {
+  padding: 20px;
+}
+.cardbutton {
+  border-radius: 67px;
+  text-decoration: none;
+  color: #abff00;
+  border-style: solid;
+
+  padding: 4px 20px;
+}
+.cardbutton:hover {
+  background-color: #abff00;
+  color: white;
+  border-color: #abff00;
+}
+.portfolioSection {
+  text-align: center;
+  background-color: #ffffff;
+}
+
+.portfoliocontent {
+  padding: 50px;
+}
+.portfolioImgs {
+  padding: 20px 10%;
+}
+.img-port {
+  padding: 10px;
+  width: 100%;
+}
+.consultationSection{
+  text-align: center;
+  padding-top: 30px;
+}
+.form{
+  text-align: left;
+  
+  margin-left: 10%;
+}
+.textbox{
+  width: 90%;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+.formImg{
+  margin-left: 100px;
+}
+.sendbutton{
+  border-radius: 30px;
+  color: white;
+  background-color: #abff00;
+  border-color: #ffffff;
+  width: 200px;
+  height: 50px;
+}
+.sendbutton:hover{
+  background-color: rgb(128, 113, 225);
+  color: black;
+}
+.consultationSection h5{
+  color: darkgrey;
+}
+.formend{
+  padding: 15% 15% 0;
+}
+.formend p{
+  padding-top: 30px;
+}
+/* login */
+.login{
+  text-align: center;
+  
+  padding-bottom: 30%;
+  
+  
+
+}
+.login input{
+  width: 500px;
+}
+.logincontainer{
+  text-align: left;
+  padding:100px 35% 0;
+  color: white;
+}
+.loginbtn{
+  width: 500px;
+  margin-top: 20px;
+  color: white!important;
+  background-color: #c4d70f!important;
+
+}
+.nav{
+  padding: 20px;
+  background-color: #c4d70f;
+}
+.homebtn{
+  color: #f5fafc!important;
+  margin-left: 2%;
+}
